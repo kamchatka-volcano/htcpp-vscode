@@ -1,0 +1,32 @@
+{
+  "name": "htcpp",
+  "displayName": "htcpp",
+  "description": "hypertextcpp - C++ HTML templating system",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "htcpp",
+      "aliases": ["htcpp", "htcpp"],
+      "extensions": ["htcpp"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [
+      {
+        "path": "./syntaxes/cpp-extension.json",
+        "scopeName": "cpp.extension",
+        "injectTo": ["template.htcpp"]
+      },
+      {
+        "language": "htcpp",
+        "scopeName": "template.htcpp",
+        "path": "./syntaxes/htcpp.tmLanguage.json"
+      }
+    ]
+  }
+}
