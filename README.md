@@ -1,8 +1,3 @@
-
-<p>
-	<image src="https://github.com/kamchatka-volcano/htcpp-vscode/blob/master/icon.png?raw=true" width="128"/>
-</p>
-
 # `htcpp`
 This repository contains Visual Studio Code [extension](https://marketplace.visualstudio.com/items?itemName=kamchatka-volcano.htcpp) for `htcpp` syntax highlighting.
 `.htcpp` is a file format used by [hypertextcpp]() - a C++ HTML templating system.
