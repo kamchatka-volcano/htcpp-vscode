@@ -1,8 +1,8 @@
 {
   "name": "htcpp",
-  "displayName": "htcpp",
-  "description": "hypertextcpp - C++ HTML templating system",
-  "version": "0.0.1",
+  "displayName": "Syntax highlighting for htcpp",
+  "description": "A syntax highligter for the htccp template format used by hypertextcpp - a C++ HTML templating system",
+  "version": "1.0.0",
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -28,5 +28,16 @@
         "path": "./syntaxes/htcpp.tmLanguage.json"
       }
     ]
-  }
+  },
+  "publisher": "kamchatka-volcano",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamchatka-volcano/htcpp-vscode"
+  },
+  "license": "MS-PL",
+  "keywords": [
+    "hypertextcpp",
+    "htcpp"    
+  ],
+  "icon": "icon.png"
 }
