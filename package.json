@@ -1,7 +1,7 @@
 {
   "name": "htcpp",
-  "displayName": "Syntax highlighting for htcpp",
-  "description": "A syntax highligter for the htccp template format used by hypertextcpp - a C++ HTML templating system",
+  "displayName": "htcpp",
+  "description": "Syntax highlighting for the htcpp template format used by hypertextcpp - a C++ HTML templating system",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.92.0"
